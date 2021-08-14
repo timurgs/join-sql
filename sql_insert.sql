@@ -32,7 +32,7 @@ INSERT INTO album(name, year_of_issue) VALUES ('What A Wonderful World', 1967);
 INSERT INTO album(name, year_of_issue) VALUES ('Blue Hawaii', 1961);
 INSERT INTO album(name, year_of_issue) VALUES ('Berry Is On Top', 1959);
 INSERT INTO album(name, year_of_issue) VALUES ('The Freewheelin Bob Dylan', 1963);
-INSERT INTO album(name, year_of_issue) VALUES ('Discovery', 2018);
+INSERT INTO album(name, year_of_issue) VALUES ('Discovery', 2019);
 
 INSERT INTO performer_album VALUES (1, 1);
 INSERT INTO performer_album VALUES (2, 2);
