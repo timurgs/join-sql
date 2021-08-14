@@ -48,5 +48,4 @@ GROUP BY p.id;
 SELECT a.name FROM album a
 JOIN song s ON a.id = s.album_id
 GROUP BY a.name
-HAVING COUNT(*) = (SELECT MIN(c) FROM (SELECT COUNT(*) c FROM
-									   album a JOIN song s ON a.id = s.album_id GROUP BY a.name) X);
+HAVING COUNT(*) = (SELECT MIN(c) FROM (SELECT COUNT(*) c FROM album a JOIN song s ON a.id = s.album_id GROUP BY a.name) X);
